@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { PostComponent } from './Post';
+import { NavigationComponent } from './Navigation';
 
-describe('Component Post', () => {
+describe('Component Navigation', () => {
   it('should render without crashing', () => {
-    const component = shallow(<PostComponent />);
+    const component = shallow(<NavigationComponent />);
     expect(component).toBeTruthy();
   });
 });

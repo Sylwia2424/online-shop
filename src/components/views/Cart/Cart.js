@@ -5,11 +5,11 @@ import clsx from 'clsx';
 //import { connect } from 'react-redux';
 //import { reduxSelector, reduxActionCraetor } from '../../../redux/exampleRedux.js';
 
-import styles from './PostEdit.module.scss';
+import styles from './Cart.module.scss';
 
 const Component = ({className, children}) => (
   <div className={clsx(className, styles.root)}>
-    <h2>PostEdit</h2>
+    <h2>Cart</h2>
     {children}
   </div>
 );
@@ -30,7 +30,7 @@ Component.propTypes = {
 //const Container = connect(mapStateToProps, mapDispatchToProps)(Component);
 
 export { 
-  Component as PostEdit,
-  //Container as PostEdit,
-  Component as PostEditComponent,
+  Component as Cart,
+  //Container as Cart,
+  Component as CartComponent,
 };

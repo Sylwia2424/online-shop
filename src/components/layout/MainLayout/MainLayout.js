@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Navigation } from '../Navigation/Navigation';
 
 import clsx from 'clsx';
 //import { connect } from 'react-redux';
@@ -9,7 +10,8 @@ import styles from './MainLayout.module.scss';
 
 const Component = ({className, children}) => (
   <div className={clsx(className, styles.root)}>
-    <h2>MainLayout</h2>
+
+    <div>{<Navigation/>}</div>
     {children}
   </div>
 );
