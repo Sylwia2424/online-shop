@@ -12,6 +12,9 @@ const Component = ({className, children}) => (
     <h2>CartForm</h2>
     {children}
   </div>
+
+  
+
 );
 
 Component.propTypes = {
